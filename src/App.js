@@ -13,7 +13,6 @@ function App() {
       <Navs />
       <Routes>
         <Route path="/" element = {<Products />} />
-        
         <Route path = "/cart" element={<Cart store  = {store}/>} />
       </Routes>
     </div>
