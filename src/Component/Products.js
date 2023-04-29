@@ -54,9 +54,7 @@ function Products() {
 
             })
     }, [])
-    useEffect(() => {
-        alert("My code is working perfectly on Local server, it is not working correctly after hosting on Github, Please Click HomePage Button to load data. and add a product in cart to access cartPage, Redux is working perrfectly")
-    }, [])
+    
 
 
 
